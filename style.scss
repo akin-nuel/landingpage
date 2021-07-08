@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 body{
     width:100%;
@@ -213,10 +214,11 @@ nav{
         height:400px;
         background-color:#fff;
         margin:0 20px;
-        box-shadow: 0 10px 12px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 10px 12px rgba(0, 0, 0, 0.18);
         @media only screen and (min-width:321px) and (max-width:600px){
             width:100%;
             height: auto;
+            margin-bottom: 50px;
         }
         .picture{
             width:45%;
@@ -254,10 +256,11 @@ nav{
         height:400px;
         background-color:#fff;
         margin:0 20px;
-        box-shadow: 0 10px 12px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 10px 12px rgba(0, 0, 0, 0.18);
         @media only screen and (min-width:321px) and (max-width:600px){
             width:100%;
             height: auto;
+            margin-bottom: 50px;
         }
         .picture{
             width:45%;
@@ -294,10 +297,11 @@ nav{
         height:400px;
         background-color:#fff;
         margin:0 20px;
-        box-shadow: 0 10px 12px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 10px 12px rgba(0, 0, 0, 0.18);
         @media only screen and (min-width:321px) and (max-width:600px){
             width:100%;
             height: auto;
+            margin-bottom: 50px;
         }
         .picture{
             width:45%;
@@ -353,6 +357,7 @@ nav{
         }
         
         h1{
+            margin-top:0;
             width:80%;
             font-size:44px;
             line-height:70px;
@@ -391,7 +396,7 @@ nav{
         }   
     }
     .textwrapper:hover{
-        box-shadow: 0 10px 12px rgba(0, 0, 0, 0.3); 
+        box-shadow: 0 10px 12px rgba(0, 0, 0, 0.15); 
     }
 
     .textwrapper2{
@@ -415,7 +420,7 @@ nav{
             width:48%;
             height:270px;
             padding:20px;
-            box-shadow: 0 10px 12px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 10px 12px rgba(0, 0, 0, 0.15);
             @media only screen and (min-width:321px) and (max-width:600px){
                 width:48%;
                 height:auto;
@@ -464,7 +469,7 @@ nav{
             width:48%;
             height:270px;
             padding:20px;
-            box-shadow: 0 10px 12px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 10px 12px rgba(0, 0, 0, 0.15);
             @media only screen and (min-width:321px) and (max-width:600px){
                 width:48%;
                 height:auto;
@@ -485,7 +490,7 @@ nav{
             h1{
                 text-align:center;
                 margin:auto;
-                width:60%;
+                width:70%;
                 font-size:20px;
                 text-align:left;
                 @media only screen and (min-width:321px) and (max-width:600px){
@@ -513,7 +518,7 @@ nav{
             width:50%;
             height:270px;
             padding:20px;
-            box-shadow: 0 10px 12px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 10px 12px rgba(0, 0, 0, 0.15);
             @media only screen and (min-width:321px) and (max-width:600px){
                 width:48%;
                 height:auto;
@@ -789,7 +794,7 @@ nav{
             margin-top:-300px;
             background-color: #fff;
             width:27%;
-            height:500px;
+            height:550px;
             border-radius:5px;
             padding:30px;
             @media only screen and (min-width:321px) and (max-width:600px){
@@ -828,10 +833,11 @@ nav{
             box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);;
         }
         .textbox7{
+            color:#fff;
             margin-top:-300px;
             background-color:#327CE9;
             width:27%;
-            height:500px;
+            height:550px;
             border-radius:5px;
             padding:30px;
             @media only screen and (min-width:321px) and (max-width:600px){
@@ -870,9 +876,10 @@ nav{
             margin-top:-300px;
             background-color:#fff;
             width:27%;
-            height:500px;
+            height:550px;
             border-radius:5px;
             padding:30px;
+            
             @media only screen and (min-width:321px) and (max-width:600px){
                 width:100%;
                 height:auto;
