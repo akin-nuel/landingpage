@@ -139,12 +139,23 @@ nav{
             color:#fff;
             font-size:40px;
             line-height:70px;
+            @media only screen and (min-width:321px) and (max-width:600px){
+                font-size:35px;
+                line-height:60px;
+            }
         }
+
+
         p{
             color:#9EA2CC;
             width:60%;
             font-size:20px;
             line-height:40px;
+
+            @media only screen and (min-width:321px) and (max-width:600px){
+                font-size:15px;
+                line-height:30px;
+            }
         }
         .button{
             width:100%;
@@ -158,6 +169,12 @@ nav{
                     background-color:#454D8A;
                     color:#FBFDFE;
                     margin: 50px 0;
+                    @media only screen and (min-width:321px) and (max-width:600px){
+                        width:100px;
+                        height:50px;
+                        margin:30px 0;
+                        font-size:12px;
+                    }
                 }
                 #transparent{
                     background-color:transparent;
@@ -188,13 +205,19 @@ nav{
     color:#fff;
     h1{
         font-size:40px;
+      
     }
+
     p{
         font-size:20px;
         color:#9EA2CC;
         margin:auto;
         line-height: 50px;
         width:400px;
+        @media only screen and (min-width:321px) and (max-width:600px){
+            width:250px;
+            font-size:12px;
+        }
     }
 }
 
@@ -246,6 +269,10 @@ nav{
             margin-top:30px;
             line-height:30px;
             text-align: center;
+            @media only screen and (min-width:321px) and (max-width:600px){
+                font-size:12px;
+                margin-bottom:20px;
+            }
         }
 
     }
@@ -288,6 +315,10 @@ nav{
             margin-top:30px;
             line-height:30px;
             text-align: center;
+            @media only screen and (min-width:321px) and (max-width:600px){
+                font-size:12px;
+                margin-bottom:20px;
+            }
         }
     }
     .box3{
@@ -329,7 +360,12 @@ nav{
             margin-top:30px;
             line-height:30px;
             text-align: center;
+            @media only screen and (min-width:321px) and (max-width:600px){
+                font-size:12px;
+                margin-bottom:20px;
+            }
         }
+        
     }
 }
 
@@ -361,13 +397,20 @@ nav{
             width:80%;
             font-size:44px;
             line-height:70px;
+            @media only screen and (min-width:321px) and (max-width:600px){
+                font-size:30px;
+                line-height:50px;
+            }
+            
         }
         h4{
             width:80%;
             color:#9C9C9C;
             font-size:20px;
             line-height:40px;
-            
+            @media only screen and (min-width:321px) and (max-width:600px){
+                font-size:12px;
+            }
         }
         a{
             @media only screen and (min-width:321px) and (max-width:600px){
@@ -379,7 +422,12 @@ nav{
                 width:170px;
                 height:50px;
                 border:0;
-                border-radius: 5px; 
+                border-radius: 5px;
+                @media only screen and (min-width:321px) and (max-width:600px){
+                    width:100px;
+                    height:40px;
+                    font-size:12px;
+                } 
             }
         }
         a:hover{
@@ -422,7 +470,7 @@ nav{
             padding:20px;
             box-shadow: 0 10px 12px rgba(0, 0, 0, 0.15);
             @media only screen and (min-width:321px) and (max-width:600px){
-                width:48%;
+                width:90%;
                 height:auto;
                 margin:auto;
             }
@@ -433,8 +481,8 @@ nav{
                 background-repeat: no-repeat;
                 margin:auto;
                 @media only screen and (min-width:321px) and (max-width:600px){
-                    width:200px;
-                    height:200px;
+                    width:150px;
+                    height:150px;
                     margin:auto;
                 }
             }
@@ -457,6 +505,7 @@ nav{
                 text-align:center;
                 @media only screen and (min-width:321px) and (max-width:600px){
                     text-align: center;
+                    font-size:12px;
                 }
             }
         }
@@ -471,8 +520,10 @@ nav{
             padding:20px;
             box-shadow: 0 10px 12px rgba(0, 0, 0, 0.15);
             @media only screen and (min-width:321px) and (max-width:600px){
-                width:48%;
+                width:90%;
                 height:auto;
+                margin:50px auto;
+                
             }
             .picture{
                 width:100px;
@@ -481,8 +532,8 @@ nav{
                 background-image: url(boxes.svg);
                 background-repeat: no-repeat;
                 @media only screen and (min-width:321px) and (max-width:600px){
-                    width:200px;
-                    height:200px;
+                    width:150px;
+                    height:150px;
                     margin:auto;
                 }
                 
@@ -506,6 +557,7 @@ nav{
                 line-height:25px;
                 @media only screen and (min-width:321px) and (max-width:600px){
                     text-align: center;
+                    font-size:12px;
                 }
             }
         }
@@ -520,9 +572,9 @@ nav{
             padding:20px;
             box-shadow: 0 10px 12px rgba(0, 0, 0, 0.15);
             @media only screen and (min-width:321px) and (max-width:600px){
-                width:48%;
+                width:90%;
                 height:auto;
-                margin:20px auto;
+                margin:50px auto;
             }
             .picture{
                 width:100px;
@@ -531,8 +583,8 @@ nav{
                 background-image: url(hands.svg);
                 background-repeat: no-repeat;
                 @media only screen and (min-width:321px) and (max-width:600px){
-                    width:200px;
-                    height:200px;
+                    width:150px;
+                    height:150px;
                     margin:auto;
                 }
                 
@@ -556,6 +608,7 @@ nav{
                 line-height:25px;
                 @media only screen and (min-width:321px) and (max-width:600px){
                     text-align: center;
+                    font-size:12px;
                 }
             } 
         }
@@ -721,12 +774,14 @@ nav{
                 color:#9C9C9C;
                 @media only screen and (min-width:321px) and (max-width:600px){
                     text-align:center;
+                    font-size:12px;
                 }
             }
             a{
                 @media only screen and (min-width:321px) and (max-width:600px){
                     float:right;
                 }
+
                 .testimonial{
                     color:#fff;
                     background-color:#327CE9;
@@ -734,6 +789,12 @@ nav{
                     height:50px;
                     border:0;
                     border-radius: 5px;
+                    @media only screen and (min-width:321px) and (max-width:600px){
+                        width:120px;
+                        height:45px;
+                        font-size:12px;
+                        
+                    }
                     
                 }
             }
@@ -758,6 +819,7 @@ nav{
     width:100%;
     height:450px;
     text-align:center;
+    margin-top:150px;
     line-height:40px;
     @media only screen and (min-width:321px) and (max-width:600px){
         width:100%;
@@ -765,11 +827,17 @@ nav{
     }
     h1{
         font-size:42px;
-        margin-top:150px;
+        
+        @media only screen and (min-width:321px) and (max-width:600px){
+            font-size:35px;
+        }
     }
     p{
         font-size:20px;
         color:#9C9C9C;
+        @media only screen and (min-width:321px) and (max-width:600px){
+            font-size:12px;
+        }
     }
 
 }
@@ -801,10 +869,21 @@ nav{
                 width:100%;
                 height:auto;
                 margin:0;
+                border-radius:30px;
+            }
+
+            h1{
+
+                @media only screen and (min-width:321px) and (max-width:600px){
+                    font-size:25px;
+                }
             }
             p{
                 color:#9C9C9C;
                 font-size: 18px;
+                @media only screen and (min-width:321px) and (max-width:600px){
+                    font-size:12px;
+                }
             }
             a{
                
@@ -816,8 +895,10 @@ nav{
                     height:60px;
                     border-radius:5px;
                     @media only screen and (min-width:321px) and (max-width:600px){
-                    
+                        width:120px;
+                        height:50px;
                         margin-top:0;
+                        font-size:10px;
                     }
                 }
             }
@@ -844,7 +925,24 @@ nav{
                 width:100%;
                 height:auto;
                 margin:0;
+                border-radius:30px;
             }
+
+            h1{
+
+                @media only screen and (min-width:321px) and (max-width:600px){
+                    font-size:25px;
+                }
+            }
+
+            p{
+                color:#fff;
+                font-size: 18px;
+                @media only screen and (min-width:321px) and (max-width:600px){
+                    font-size:12px;
+                }
+            }
+
             a{
                 
                 button{
@@ -855,7 +953,12 @@ nav{
                     height:60px;
                     border-radius:5px;
                     @media only screen and (min-width:321px) and (max-width:600px){
+                        width:120px;
+                        height:50px;
+                        margin-top:0;
+                        font-size:10px;
                         margin-top:10px;
+                        color:#fff;
                     }
                 }
                 
@@ -884,7 +987,23 @@ nav{
                 width:100%;
                 height:auto;
                 margin:0;
+                border-radius:30px;
             }
+
+            h1{
+
+                @media only screen and (min-width:321px) and (max-width:600px){
+                    font-size:25px;
+                }
+            }
+
+            p{
+                font-size: 18px;
+                @media only screen and (min-width:321px) and (max-width:600px){
+                    font-size:12px;
+                }
+            }
+
             a{
                 
                 button{
@@ -895,7 +1014,11 @@ nav{
                     height:60px;
                     border-radius:5px;
                     @media only screen and (min-width:321px) and (max-width:600px){
+                        width:120px;
+                        height:50px;
                         margin-top:0;
+                        font-size:10px;
+                        margin-top:10px;
                     }
                 }
             }
@@ -932,9 +1055,17 @@ nav{
         height:auto;
         h1{
             color:#fff;
+
+            @media only screen and (min-width:321px) and (max-width:600px){
+                font-size:20px;
+            }
         }
         p{
             color:#8F94BD;
+
+            @media only screen and (min-width:321px) and (max-width:600px){
+                font-size:12px;
+            }
         }
     }
     .button{
@@ -952,6 +1083,12 @@ nav{
                 background-color:#B6B9C8;
                 margin:3px;
                 color:#fff;
+                @media only screen and (min-width:321px) and (max-width:600px){
+                    width:100px;
+                    height:35px;
+                    font-size:10px;
+                    float:right;
+                }
             }
             .transparent{
                 background-color:transparent;
@@ -982,9 +1119,28 @@ nav{
             height:auto;
             font-size:13px;
         }
-        span{
-            font-weight:900;
+
+        h4{
+
+            @media only screen and (min-width:321px) and (max-width:600px){
+                font-size:11px;
+            }
+
+            span{
+                font-weight:900;
+            }
         }
+
+        h5{
+
+            @media only screen and (min-width:321px) and (max-width:600px){
+                font-size:7px;
+            }
+        }
+        
+
+        
+
     }
     .text2{
         width:80%;
@@ -1001,6 +1157,10 @@ nav{
             }
             h5{
                 height:35px;
+                @media only screen and (min-width:321px) and (max-width:600px){
+                    font-size:7px;
+                    height:20px;
+                }
             }
         }
         .box2{
@@ -1014,6 +1174,10 @@ nav{
             }
             h5{
                 height:35px;
+                @media only screen and (min-width:321px) and (max-width:600px){
+                    font-size:7px;
+                    height:20px;
+                }
             }
         }
         .box3{
@@ -1027,6 +1191,10 @@ nav{
             }
             h5{
                 height:35px;
+                @media only screen and (min-width:321px) and (max-width:600px){
+                    font-size:7px;
+                    height:20px;
+                }
             }
         }
         .box4{
@@ -1040,6 +1208,10 @@ nav{
             }
             h5{
                 height:35px;
+                @media only screen and (min-width:321px) and (max-width:600px){
+                    font-size:7px;
+                    height:20px;
+                }
             }
         }
     }
